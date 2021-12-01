@@ -201,20 +201,21 @@ body{
     color: #000814;
 }
 
-.my-service{
+section{
     margin-top: 150px;
 }
 
 .section__title{
     font-size: 36px;
     line-height: 44px;
+    margin-bottom: 75px;
 }
 
 .service__blocks{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 75px;
+    
 }
 
 .service__box{
@@ -236,4 +237,27 @@ body{
 .block__text{
     font-size: 20px;
     line-height: 130%;
+}
+
+.work__nav{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.work__list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.works__list__item{
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.works__list__item:hover{
+    border-bottom:  5px solid #07A989;
+    padding-bottom: 0;
 }
