@@ -51,6 +51,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    margin: 0 auto;
 }
 
 .nav__list li{
@@ -260,4 +261,84 @@ section{
 .works__list__item:hover{
     border-bottom:  5px solid #07A989;
     padding-bottom: 0;
+}
+
+.work__card__zone, .blog__card__zone{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work__card, .blog__card{
+    border: 3px solid #07A989;
+    border-radius: 20px;
+    flex-basis: 48%;
+    height: 100%;
+    padding: 25px;
+}
+
+.btn__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 250px;
+}
+
+.card__tegs{
+    display: inline-block;
+    border: 2px solid #07A989;
+    border-radius: 20px;
+    padding: 2px 15px;
+    margin-top: 25px;
+}
+
+.card__title{
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+.card__text{
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 25px;
+}
+
+.card__image{
+    display: block;
+    border-radius: 8px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.blog__card{
+    flex-basis: 31%;
+}
+
+.card__subtext{
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.contact__text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.contact__title{
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.contact__info{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 40px;
 }
